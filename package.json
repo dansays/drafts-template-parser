@@ -1,6 +1,6 @@
 {
   "name": "drafts-template-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Drafts 5 template tag parser",
   "main": "src/template-tag-parser.js",
   "scripts": {
