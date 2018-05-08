@@ -8,9 +8,12 @@
     "watch": "npx webpack --watch"
   },
   "keywords": [
-    "things",
     "drafts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dansays/drafts-template-parser.git"
+  },
   "author": {
     "name": "Daniel G. Budiac",
     "email": "dan@budi.ac",
