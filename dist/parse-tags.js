@@ -138,10 +138,11 @@ function () {
   _createClass(TemplateTagParser, [{
     key: "ask",
     value: function ask() {
+      var title = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'Template Questions';
       var tags = this.tags;
       if (tags.length == 0) return true;
       var prompt = Prompt.create();
-      prompt.title = 'Template Questions';
+      prompt.title = title;
       tags.forEach(function (tag) {
         return prompt.addTextField(tag, tag, '');
       });
